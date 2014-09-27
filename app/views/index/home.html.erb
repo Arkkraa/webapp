@@ -1,0 +1,15 @@
+<!-- fix orginization of layouts and button css stuff-->
+
+<div class="page">
+	<div class="container">
+		<div class="display: inline-block">
+			<div class="game-img pull-right">
+				<%= image_tag("http://apod.nasa.gov/apod/image/1403/heic1404b1920.jpg") %>
+			</div>
+			<div class="description">
+				<p> Temp Description</p>
+			</div>		</div>
+		<div class="play-btn">
+			<%= link_to "Play Now", connect5_path, class: "btn btn-large btn-primary", id: "cstm-btn" %>
+	</div>
+</div>
