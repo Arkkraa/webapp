@@ -1,6 +1,7 @@
 Webapp::Application.routes.draw do
   root "index#home"
   match "/connect5" => "index#connect5", via: "get"
+  match "/test" => "index#test", via: "get"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

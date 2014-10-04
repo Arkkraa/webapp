@@ -3,4 +3,6 @@ class IndexController < ApplicationController
 	end
 	def connect5
 	end
+	def test
+	end
 end

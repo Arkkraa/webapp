@@ -1,10 +1,8 @@
 <!-- fix orginization of layouts and button css stuff-->
-
-<div class="page">
-	<div class="container">
-		<table class="table g-table">
+<div class="container">
+		<table class="table table-responsive">	
 			<tr>
-				<td>
+				<td id="game-table">
 					<p> Will this description make this table data any bigger? Lets test it out with a longer description and hopefully it should expand the table data. LOLOLOL TEST TEST</p><br><br><br>
 					<%= link_to "Play Now", connect5_path, class: "btn btn-large btn-primary", id: "cstm-btn" %>
 				</td>
@@ -15,7 +13,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td>
+				<td id="game-table">
 					<p>This is a description for our second game. This game will probably be a game about connecting boxes for points. We look forward to expanding the idea to include different shapes and patterns for different points and categories.</p><br><br>
 					<%= link_to "Play Now", connect5_path, class: "btn btn-large btn-primary", id: "cstm-btn" %>
 				</td>
@@ -24,6 +22,17 @@
 						<%= image_tag "http://apod.nasa.gov/apod/image/1403/heic1404b1920.jpg" %>
 					</div>
 				</td>
+			</tr>
+			<tr>
+				<td id="game-table">
+					<p> Will this description make this table data any bigger? Lets test it out with a longer description and hopefully it should expand the table data. LOLOLOL TEST TEST</p><br><br><br>
+					<%= link_to "Play Now", connect5_path, class: "btn btn-large btn-primary", id: "cstm-btn" %>
+				</td>
+				<td>
+					<div class="game-img pull-right">
+						<%= image_tag "http://apod.nasa.gov/apod/image/1403/heic1404b1920.jpg"  %>
+					</div>
+				</td>
+			</tr>
 		</table>
 	</div>
-</div>
